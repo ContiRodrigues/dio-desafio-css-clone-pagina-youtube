@@ -1,0 +1,313 @@
+@import url(./global.css);
+@import url(./reset.css);
+
+body {
+    width: 1440px;
+    height: 1024px;
+}
+
+.content {
+    display: grid;
+    grid-template-areas: "watching-video sidebar";
+    margin: auto;
+}
+
+.header-content {
+    width: 100%;
+    height: 56px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 146px;
+    height: 24px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#vector {
+    width: 24px;
+    height: 24px;
+}
+
+#logo {
+    width: 90px;
+    height: 24px;
+}
+
+.search {
+    width: 404px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+#label {
+    width: 348px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#lupa {
+    width: 57px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 10px;
+    border: 1px solid #CCCCCC;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.user {
+    width: 130px;
+    height: 34px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#video {
+    width: 24px;
+    height: 24px;
+    padding-top: 7px;
+}
+
+#bell {
+    width: 24px;
+    height: 24px;
+    padding-top: 7px;
+}
+
+#avatar img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.watching-video {
+    width: 952px;
+    height: 746px;
+    margin-left: 75px;
+    margin-top: 28px;
+}
+
+#video-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-top: 16px;
+}
+
+.video-actions {
+    width: 902px;
+    height: 42px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.video-actions .chanel-infos {
+    width: 160px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.chanel-infos img {
+    width: 42px;
+    height: 42px;
+}
+
+.video-actions .name {
+    width: 120px;
+    height: 32px;
+    padding-left: 8px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name-dio {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#num-subscribed {
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+}
+
+.subscribe-button button {
+    width: 159px;
+    height: 40px;
+    margin-left: 35px;
+    background: #CC0000;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.like {
+    width: 70px;
+    height: 24px;
+    margin-left: 35px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.like img {
+    width: 24px;
+    height: 24px;
+}
+
+.like p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.deslike {
+    width: 110px;
+    height: 24px;
+    margin-left: 35px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.deslike img {
+    width: 24px;
+    height: 24px;
+}
+
+.deslike p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.share {
+    width: 120px;
+    height: 24px;
+    margin-left: 35px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.share img {
+    width: 24px;
+    height: 24px;
+}
+
+.share p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.download {
+    width: 100px;
+    height: 24px;
+    margin-left: 35px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.download img {
+    width: 24px;
+    height: 2px4px;
+}
+
+.download p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.video-text {
+    margin-top: 40px;
+}
+
+#visualizations {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#description {
+    width: 510px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+}
+
+.sidebar {
+    margin: 28px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-video-01 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+.sidebar-video {
+    width: 100%;
+    height: 90px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.sidebar-iframe {
+    width: 160px;
+    height: 90px;
+    align-items: flex-start;
+}
+
+.sidebar-iframe iframe {
+    border-radius: 10px;
+}
+
+#sidebar-title {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+#sidebar-name {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#sidebar-visualizations {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+    padding-left: 15px;
+    padding-top: 8px;
+}
